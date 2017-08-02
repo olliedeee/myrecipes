@@ -11,6 +11,9 @@ description: text
 - chefid must be presents
 
 
+-chefname present, between 3 and 40
+
+email present, must be unique, must be valid
 
 
 
