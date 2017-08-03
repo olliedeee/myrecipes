@@ -1,3 +1,33 @@
+Chefs:
+
+- We have chef model & validations 
+- chefs table with columns chefname & email
+
+
+We need to: 
+X- add passwords to chef table so chefs can be authenticated & logged initialization
+- Use email as login, as its unique
+X- Add new chef
+- Display chef profile
+- List all chefs on the app
+- Chef login / logout
+- Restrict actions to create recipe, edit recipe and like feature to logged in chefs only
+- restrict edit of recipes by chefs who create the recipes
+
+We will create our own authentication system instead of using devise, hassecurepassword, we use it to learn etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
 testing specs for recipes
 
 name: string
