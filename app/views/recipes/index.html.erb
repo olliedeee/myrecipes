@@ -27,6 +27,11 @@
         
         <p> <%= recipe.summary %></p>
         
+        <p>Styles: <%= render recipe.styles %></p>
+        <p>Ingredients:<%= render recipe.ingredients %></p>
+        
+        
+        
         <p>
           <span class='quiet'><small>Created: <%= time_ago_in_words(recipe.created_at) %> ago  </small>  </span> <br />
           <span class='quiet'><small>Updated: <%= time_ago_in_words(recipe.updated_at) %> ago   </small>  </span>
